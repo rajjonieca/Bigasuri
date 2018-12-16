@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Bigasuri App
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  Rice is the staple food of about 85% of Filipino citizens. It is most vital to low-income Filipinos,
+   for as much as 65% of their daily calorie consumption depend on rice (Angara, 2011). 
+   The rice in the Philippines is divided into different classifications that depends on how well 
+   the rice is milled during the milling process.
+  <p>
+    Right rice is nice!
+  </p>
+  <button ion-button (click)="takePhoto()" full color="primary">Take Photo</button>
+  <button ion-button (click)="getImage()" full color="secondary">Get Photo From Library</button>
+  <button ion-button (click)="cropImage()" full color="danger">Crop Image</button>
+
+  <p align="center"><img src="{{ myphoto }}"></p>
+
+</ion-content>

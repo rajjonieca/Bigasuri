@@ -1,0 +1,8 @@
+{
+  "name": "samapp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "id": "27efa743"
+}
